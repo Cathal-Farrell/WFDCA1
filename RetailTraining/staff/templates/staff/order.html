@@ -1,0 +1,8 @@
+<a href="/staff/"><h1>Home</h1></a>
+
+{% if order %}
+    <h3>Order number: {{order.pk}}</h3>
+    <p>Product: {{order.productID}}</p>
+    <p>Pickup location: {{order.locationID}}</p>
+    <a href="/staff/order/{{ order.pk }}/complete/"><button>Complete</button></a>
+{% endif %}

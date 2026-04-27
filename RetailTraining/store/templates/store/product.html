@@ -1,0 +1,22 @@
+{% if error_message %}
+    <h2 class="error"><i>
+        {{ error_message }}
+    </i></h2>
+{% endif %}
+
+{% if product %}
+    <a href="/store/"><h1>Home</h1></a>
+
+    <h3>{{product.name}}</h3>
+
+    <p>{{product.desc}}</p>
+
+    <p>€{{product.price}}</p>
+
+    <p>stock: {{product.stock}}</p>
+
+    <button onclick="location.href='/store/{{ product.id }}/purchase/'">Purchase</button>
+
+{% else %}
+    <p>Product not found.</p>
+{% endif %}

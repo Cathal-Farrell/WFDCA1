@@ -1,0 +1,24 @@
+<form action="{% url 'store:sale' product.id %}" method="post">
+{% csrf_token %}
+<fieldset>
+    <legend><h1>{{ product.name }}</h1></legend>
+    {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+    <label for="locations">Pick-up location:</label>
+    <select name="locations" id="locations">
+        {% for store in locations_list %}
+        <option value="{{ store.id }}">{{ store.address }}, {{ store.city }}</option>
+        {% endfor %}    
+    </select><br>
+    <label for="fname">Account first name:</label>
+    <input name="fname" id="fname"><br>
+    <label for="lname">Account last name:</label>
+    <input name="lname" id="lname"><br>
+    <label for="cardName">Name on card:</label>
+    <input name="cardName" id="cardName"><br>
+    <label for="cardNumber">Card number:</label>
+    <input name="cardNumber" id="cardNumber"><br>
+    <label for="cvv">CVV:</label>
+    <input name="cvv" id="cvv"><br>
+</fieldset>
+<input type="submit" value="Purchase">
+</form>

@@ -1,0 +1,23 @@
+<a href="/staff/"><h1>Home</h1></a>
+
+{% if orders_list %}
+    <h3>Orders:</h3>
+    <ul>
+    {% for order in orders_list %}
+        <li><a href="/staff/order/{{ order.pk }}/">{{ order.pk }}. {{ order.productID }} - {{ order.customerID }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No current orders.</p>
+{% endif %}
+
+{% if products_list %}
+    <h3>Products:</h3>
+    <ul>
+    {% for product in products_list %}
+        <li><a href="/staff/{{ product.pk }}/">{{ product.pk }}.  {{ product.name }} ---{{ product.stock }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No products available.</p>
+{% endif %}

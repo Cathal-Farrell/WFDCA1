@@ -1,0 +1,38 @@
+{% if error_message %}
+    <h2 class="error"><i>
+        {{ error_message }}
+    </i></h2>
+{% endif %}
+
+{% if user_roles_list %}
+
+    <a href="/staff/"><h1>Home</h1></a>
+
+    {# https://www.w3schools.com/django/ref_filters_first.php #}
+    {% with first=user_roles_list|first %}
+        <h3>{{first.user.pk}}. {{first.user}}</h3>
+    
+
+    <h4>Current roles:</h4>
+    {% for entry in user_roles_list %}
+        <p>{{entry.role.title}}</p>
+    {% endfor %}
+
+    <form action="{% url 'staff:completeChange' first.user.pk %}" method="post">
+    {% csrf_token %}
+
+    <input type="checkbox" id="ceo" name="ceo" value=True>
+    <label for="ceo">CEO</label><br>
+    <input type="checkbox" id="manager" name="manager" value="manager">
+    <label for="manager">Store Manager</label><br>
+    <input type="checkbox" id="clerk" name="clerk" value="clerk">
+    <label for="clerk">Store Clerk</label><br>
+    <input type="checkbox" id="trainer" name="trainer" value="trainer">
+    <label for="trainer">Trainer</label><br>
+    <input type="submit" value="Submit">
+
+    {% endwith %}
+
+{% else %}
+    <p>Product not found.</p>
+{% endif %}

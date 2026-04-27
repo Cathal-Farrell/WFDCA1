@@ -1,0 +1,26 @@
+{% if error_message %}
+    <h2 class="error"><i>
+        {{ error_message }}
+    </i></h2>
+{% endif %}
+
+<form action="{% url 'staff:update' product.pk %}" method="post">
+{% csrf_token %}
+
+{% if product %}
+    <a href="/staff/"><h1>Home</h1></a>
+
+    <h3>{{product.name}}</h3>
+
+    <p>{{product.desc}}</p>
+
+    <p>€{{product.price}}</p>
+
+    <p>stock: {{product.stock}}</p>
+
+    <input name="new_stock" id="new_stock">
+    <input type="submit" value="Submit">
+
+{% else %}
+    <p>Product not found.</p>
+{% endif %}

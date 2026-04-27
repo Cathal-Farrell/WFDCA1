@@ -1,0 +1,462 @@
+[
+  {
+    "model": "staff.Tutorial",
+    "pk": 1,
+    "fields": {
+      "title": "CEO Retail Leadership: Strategic Management",
+      "description": "Comprehensive training for retail CEOs covering strategic planning, financial oversight, and company culture development.",
+      "content": "As a retail CEO in Ireland, your role extends beyond daily operations into strategic vision and long-term sustainability. This module covers three critical areas:\n\nStrategic Planning: Understanding market trends unique to Irish retail, including cross-border trade between Republic of Ireland and Northern Ireland. Learn to analyze competitor positioning, identify growth opportunities in both urban centers (Dublin, Belfast, Cork) and rural markets. Develop 3-5 year strategic roadmaps that account for seasonal tourism patterns, especially during peak months (March for St. Patrick's tourism, June-August for summer visitors, November-December for holiday shopping).\n\nFinancial Oversight: Master key retail metrics including same-store sales growth, inventory turnover rates, gross margin return on investment (GMROI), and customer acquisition costs. Understand how to balance investments between brick-and-mortar locations (your 10 Irish stores) and e-commerce infrastructure. Review case studies of successful Irish retailers like Primark's Dublin flagship and local success stories.\n\nCompany Culture & Governance: Build a training-first culture where continuous learning is valued. Establish clear governance structures with roles (CEO, Store Managers, Trainers, Clerks) properly empowered. Learn to use training completion data to predict performance and identify high-potential employees for promotion. Understand employment law specific to Republic of Ireland (minimum wage €12.70/hour as of 2024) versus Northern Ireland (£11.44/hour).\n\nThis module includes a strategic planning exercise where you'll create a quarterly training initiative for all 10 store locations.",
+      "roleID": 1
+    }
+  },
+  {
+    "model": "staff.Tutorial",
+    "pk": 2,
+    "fields": {
+      "title": "Store Manager Excellence: Operations & Team Leadership",
+      "description": "Essential training for Store Managers covering daily operations, team management, and performance optimization.",
+      "content": "Store Managers are the backbone of retail success, bridging corporate strategy with frontline execution. This module covers operations, team leadership, and performance metrics specific to Irish retail.\n\nOperations Management: Master inventory control systems including stock receiving, cycle counts, and shrinkage prevention. Learn to use your point-of-sale (POS) system for real-time sales tracking and inventory alerts. Understand opening/closing procedures, cash handling protocols, and security measures. For your specific location (whether Dublin, Cork, Galway, Limerick, Waterford, Mullingar, Sligo, Belfast, Derry, or Lurgan), adapt to local foot traffic patterns and peak hours.\n\nTeam Leadership: Develop skills in scheduling, shift management, and delegation. Learn to motivate your Store Clerks through recognition programs and constructive feedback. Understand Irish employment laws regarding breaks (15-minute paid break for 4.5+ hour shifts, 30-minute unpaid for 6+ hours), overtime, and holiday pay. Practice difficult conversations including performance improvement plans.\n\nPerformance Metrics: Track key indicators including average transaction value, conversion rate (browsers to buyers), items per transaction, and customer satisfaction scores. Use training completion data to identify which clerks need additional coaching. Learn to conduct effective team meetings and huddles, especially before busy periods like St. Patrick's weekend or the December holiday season.\n\nThis module includes a practical exercise: create a weekly schedule for your store with 5 clerks, accounting for peak hours (10am-12pm and 2pm-4pm) and minimum coverage requirements.",
+      "roleID": 2
+    }
+  },
+  {
+    "model": "staff.Tutorial",
+    "pk": 3,
+    "fields": {
+      "title": "Store Clerk Essentials: Customer Service & Sales",
+      "description": "Foundational training for Store Clerks covering customer interaction, product knowledge, and sales techniques.",
+      "content": "Store Clerks create the customer experience that builds loyalty and drives revenue. This module covers customer service excellence, sales skills, and operational basics for Irish retail environments.\n\nCustomer Service Excellence: Master the greeting sequence (eye contact, warm welcome, open body language) within 10 seconds of customer entry. Learn active listening techniques to identify customer needs, whether they're tourists asking about Irish souvenirs or locals seeking everyday items. Handle difficult situations including returns without receipts, frustrated customers, and long queue management during busy periods. Remember that Irish customers value friendly, genuine interaction over aggressive sales tactics.\n\nProduct Knowledge: For your store's product range (electronics, clothing, home goods, books), learn key features and benefits of top-selling items. Practice suggestive selling - if a customer buys The Irish Cookbook, recommend Guinness pint glasses. Understand pricing, promotions, and loyalty programs. Know where products are located to minimize customer wait time.\n\nSales Techniques: Learn the ASSURE method - Acknowledge, Show features, Suggest benefits, Understand objections, Recommend solutions, Ensure satisfaction. Practice upselling (offering premium versions) and cross-selling (complementary products). For high-value electronics like the iPhone 15 Pro Max, learn to explain protection plans and financing options available in Ireland.\n\nOperational Basics: Master your POS system for transactions, returns, and gift cards. Understand cash handling procedures, including counting back change accurately. Learn opening duties (checking stock levels, cleaning displays) and closing duties (securing cash, restocking shelves). Know emergency procedures including fire exits and theft prevention.\n\nThis module includes a role-play scenario: handle a customer returning a defective Dyson vacuum without a receipt while three other customers wait in line.",
+      "roleID": 3
+    }
+  },
+  {
+    "model": "staff.Tutorial",
+    "pk": 4,
+    "fields": {
+      "title": "Trainer Certification: Effective Training Delivery",
+      "description": "Advanced training for workplace trainers covering adult learning principles, assessment methods, and feedback techniques.",
+      "content": "As a certified trainer, you'll develop and deliver training that transforms Store Clerks into confident, capable team members. This module covers adult learning theory, training delivery methods, and assessment strategies.\n\nAdult Learning Principles: Understand that retail employees learn best through practical application, not lectures. Apply the 70-20-10 model - 70% on-the-job experience, 20% coaching and mentoring, 10% formal training. Recognize different learning styles (visual, auditory, kinesthetic) and adapt your delivery. For example, when training on the POS system, demonstrate (visual), explain (auditory), then have the clerk practice (kinesthetic).\n\nTraining Delivery: Structure effective sessions using the four-step method - Preparation (explain what and why), Presentation (demonstrate), Application (trainee practices), Evaluation (feedback and correct). Create engaging materials including checklists, quick reference cards, and scenario-based exercises. For product knowledge training, use real products like the KitchenAid mixer or Bose headphones for hands-on learning.\n\nAssessment Methods: Design practical tests that measure real competence, not just memorization. For customer service training, use mystery shopper scenarios. For sales training, track conversion rates before and after. Maintain training records including completion dates, quiz scores, and manager sign-offs. Identify struggling trainees early and provide additional support.\n\nFeedback Techniques: Master the SBI model - Situation (describe specific context), Behavior (state observable actions), Impact (explain results). For example: \"During yesterday's afternoon rush (Situation), you helped three customers while restocking shelves (Behavior), which kept the queue moving quickly (Impact).\" Practice corrective feedback privately, focusing on future improvement, not past mistakes.\n\nThis module includes creating a 15-minute training session on using the Fitbit Charge 6 display, including a 5-question knowledge check and practical demonstration.",
+      "roleID": 4
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 1,
+    "fields": {
+      "tutorial": 1,
+      "question_text": "What are the three critical areas covered in CEO strategic management training?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 2,
+    "fields": {
+      "tutorial": 1,
+      "question_text": "What is the minimum wage in the Republic of Ireland as of 2024?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 3,
+    "fields": {
+      "tutorial": 1,
+      "question_text": "Which months are identified as peak tourist seasons for Irish retail?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 4,
+    "fields": {
+      "tutorial": 2,
+      "question_text": "What are the three key performance metrics Store Managers should track?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 5,
+    "fields": {
+      "tutorial": 2,
+      "question_text": "How long of a paid break is required for a 4.5+ hour shift in Ireland?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 6,
+    "fields": {
+      "tutorial": 2,
+      "question_text": "What are the typical peak hours for Irish retail stores mentioned in the training?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 7,
+    "fields": {
+      "tutorial": 3,
+      "question_text": "What does the ASSURE method stand for in sales techniques?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 8,
+    "fields": {
+      "tutorial": 3,
+      "question_text": "What is the recommended timeframe for greeting a customer after they enter the store?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 9,
+    "fields": {
+      "tutorial": 3,
+      "question_text": "Which product pairing is suggested as an example of cross-selling?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 10,
+    "fields": {
+      "tutorial": 4,
+      "question_text": "What does the 70-20-10 model represent in adult learning?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 11,
+    "fields": {
+      "tutorial": 4,
+      "question_text": "What are the four steps of the training delivery method?"
+    }
+  },
+  {
+    "model": "staff.Question",
+    "pk": 12,
+    "fields": {
+      "tutorial": 4,
+      "question_text": "What does SBI stand for in feedback technique?"
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 1,
+    "fields": {
+      "question": 1,
+      "choice_text": "(correct) Strategic Planning, Financial Oversight, Company Culture",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 2,
+    "fields": {
+      "question": 1,
+      "choice_text": "Marketing, HR, Logistics",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 3,
+    "fields": {
+      "question": 1,
+      "choice_text": "Sales, Distribution, Returns",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 4,
+    "fields": {
+      "question": 2,
+      "choice_text": "€11.50 per hour",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 5,
+    "fields": {
+      "question": 2,
+      "choice_text": "(correct) €12.70 per hour",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 6,
+    "fields": {
+      "question": 2,
+      "choice_text": "€13.50 per hour",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 7,
+    "fields": {
+      "question": 3,
+      "choice_text": "January, February, March",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 8,
+    "fields": {
+      "question": 3,
+      "choice_text": "(correct) March, June-August, November-December",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 9,
+    "fields": {
+      "question": 3,
+      "choice_text": "April, September, October",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 10,
+    "fields": {
+      "question": 4,
+      "choice_text": "Revenue, Profit, Expenses",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 11,
+    "fields": {
+      "question": 4,
+      "choice_text": "(correct) Average transaction value, Conversion rate, Items per transaction",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 12,
+    "fields": {
+      "question": 4,
+      "choice_text": "Foot traffic, Weather, Holidays",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 13,
+    "fields": {
+      "question": 5,
+      "choice_text": "30 minutes paid",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 14,
+    "fields": {
+      "question": 5,
+      "choice_text": "(correct) 15 minutes paid",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 15,
+    "fields": {
+      "question": 5,
+      "choice_text": "45 minutes unpaid",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 16,
+    "fields": {
+      "question": 6,
+      "choice_text": "8am-10am and 6pm-8pm",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 17,
+    "fields": {
+      "question": 6,
+      "choice_text": "(correct) 10am-12pm and 2pm-4pm",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 18,
+    "fields": {
+      "question": 6,
+      "choice_text": "12pm-2pm and 4pm-6pm",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 19,
+    "fields": {
+      "question": 7,
+      "choice_text": "Ask, Show, Suggest, Understand, Recommend, Ensure",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 20,
+    "fields": {
+      "question": 7,
+      "choice_text": "(correct) Acknowledge, Show features, Suggest benefits, Understand objections, Recommend solutions, Ensure satisfaction",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 21,
+    "fields": {
+      "question": 7,
+      "choice_text": "Approach, Smile, Sell, Upsell, Review, Thank",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 22,
+    "fields": {
+      "question": 8,
+      "choice_text": "Within 30 seconds",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 23,
+    "fields": {
+      "question": 8,
+      "choice_text": "(correct) Within 10 seconds",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 24,
+    "fields": {
+      "question": 8,
+      "choice_text": "Within 1 minute",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 25,
+    "fields": {
+      "question": 9,
+      "choice_text": "iPhone with Samsung TV",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 26,
+    "fields": {
+      "question": 9,
+      "choice_text": "(correct) The Irish Cookbook with Guinness pint glasses",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 27,
+    "fields": {
+      "question": 9,
+      "choice_text": "Nike shoes with Levi's jeans",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 28,
+    "fields": {
+      "question": 10,
+      "choice_text": "70% lecture, 20% reading, 10% testing",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 29,
+    "fields": {
+      "question": 10,
+      "choice_text": "(correct) 70% on-the-job experience, 20% coaching, 10% formal training",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 30,
+    "fields": {
+      "question": 10,
+      "choice_text": "70% practice, 20% theory, 10% assessment",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 31,
+    "fields": {
+      "question": 11,
+      "choice_text": "Plan, Do, Check, Act",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 32,
+    "fields": {
+      "question": 11,
+      "choice_text": "(correct) Preparation, Presentation, Application, Evaluation",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 33,
+    "fields": {
+      "question": 11,
+      "choice_text": "Teach, Show, Do, Review",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 34,
+    "fields": {
+      "question": 12,
+      "choice_text": "(correct) Situation, Behavior, Impact",
+      "is_correct": true
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 35,
+    "fields": {
+      "question": 12,
+      "choice_text": "Start, Body, Introduction",
+      "is_correct": false
+    }
+  },
+  {
+    "model": "staff.Choice",
+    "pk": 36,
+    "fields": {
+      "question": 12,
+      "choice_text": "Specific, Measurable, Achievable",
+      "is_correct": false
+    }
+  }
+]

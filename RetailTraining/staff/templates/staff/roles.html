@@ -1,0 +1,12 @@
+<a href="/staff/"><h1>Home</h1></a>
+
+{% if user_roles_list%}
+    <h3>Users:</h3>
+    <ul>
+    {% for user_role in user_roles_list %}
+        <li><a href="/staff/roles/{{ user_role.user.pk }}/">{{ user_role.user.pk }}. {{ user_role.user }} - {{ user_role.role }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No current users.</p>
+{% endif %}

@@ -1,0 +1,31 @@
+{% if error_message %}
+    <h2 class="error"><i>
+        {{ error_message }}
+    </i></h2>
+{% endif %}
+<form action="{% url 'staff:grade' tutorial.pk %}" method="post">
+{% csrf_token %}
+
+{% if tutorial %}
+    <a href="/staff/"><h1>Home</h1></a>
+    <h1>{{ tutorial.title }}</h1>
+    <h2>{{ tutorial.description }}</h2>
+    <p>{{ tutorial.content }}</p>
+    <ol>
+    {% for question in question_list %}
+        
+        <li><p>{{ question.question_text }}</p></li>
+        {% for choice in choice_list %}
+            {% if choice.question == question %}
+            <input type="radio" name="choice{{ question.pk }}" id="choice-{{ question.pk }}-{{ choice.pk }}" value="{{ choice.pk }}" required>
+            <label for="choice-{{ question.pk }}-{{ choice.pk }}">{{ choice.choice_text }}</label><br>
+            {% endif %}
+        {% endfor %}
+    {% endfor %}   
+    </ol>
+{% else %}
+    <p>No tutorial available.</p>
+{% endif %}
+
+<input type="submit" value="Submit">
+</form>

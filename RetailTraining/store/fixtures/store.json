@@ -1,0 +1,885 @@
+[
+  {
+    "model": "store.location",
+    "pk": 1,
+    "fields": {
+      "phoneNumber": "+353-1-234-5678",
+      "address": "12 Grafton Street",
+      "city": "Dublin",
+      "province": "Leinster",
+      "country": "Ireland",
+      "postalCode": "D02 XY12"
+    }
+  },
+  {
+    "model": "store.location",
+    "pk": 2,
+    "fields": {
+      "phoneNumber": "+353-21-123-4567",
+      "address": "45 Patrick Street",
+      "city": "Cork",
+      "province": "Munster",
+      "country": "Ireland",
+      "postalCode": "T12 AB34"
+    }
+  },
+  {
+    "model": "store.location",
+    "pk": 3,
+    "fields": {
+      "phoneNumber": "+353-91-987-6543",
+      "address": "8 Shop Street",
+      "city": "Galway",
+      "province": "Connacht",
+      "country": "Ireland",
+      "postalCode": "H91 CD56"
+    }
+  },
+  {
+    "model": "store.location",
+    "pk": 4,
+    "fields": {
+      "phoneNumber": "+353-61-456-7890",
+      "address": "23 O'Connell Street",
+      "city": "Limerick",
+      "province": "Munster",
+      "country": "Ireland",
+      "postalCode": "V94 EF78"
+    }
+  },
+  {
+    "model": "store.location",
+    "pk": 5,
+    "fields": {
+      "phoneNumber": "+353-51-789-0123",
+      "address": "5 Michael Street",
+      "city": "Waterford",
+      "province": "Munster",
+      "country": "Ireland",
+      "postalCode": "X91 GH90"
+    }
+  },
+  {
+    "model": "store.location",
+    "pk": 6,
+    "fields": {
+      "phoneNumber": "+353-44-234-5678",
+      "address": "18 Main Street",
+      "city": "Mullingar",
+      "province": "Leinster",
+      "country": "Ireland",
+      "postalCode": "N91 IJ12"
+    }
+  },
+  {
+    "model": "store.location",
+    "pk": 7,
+    "fields": {
+      "phoneNumber": "+353-71-345-6789",
+      "address": "32 Castle Street",
+      "city": "Sligo",
+      "province": "Connacht",
+      "country": "Ireland",
+      "postalCode": "F91 KL34"
+    }
+  },
+  {
+    "model": "store.location",
+    "pk": 8,
+    "fields": {
+      "phoneNumber": "+44-28-9024-1234",
+      "address": "45 Donegall Place",
+      "city": "Belfast",
+      "province": "County Antrim",
+      "country": "Northern Ireland",
+      "postalCode": "BT1 5AD"
+    }
+  },
+  {
+    "model": "store.location",
+    "pk": 9,
+    "fields": {
+      "phoneNumber": "+44-28-7126-5678",
+      "address": "15 Ferryquay Street",
+      "city": "Derry",
+      "province": "County Londonderry",
+      "country": "Northern Ireland",
+      "postalCode": "BT48 6JB"
+    }
+  },
+  {
+    "model": "store.location",
+    "pk": 10,
+    "fields": {
+      "phoneNumber": "+44-28-3832-9012",
+      "address": "8 High Street",
+      "city": "Lurgan",
+      "province": "County Armagh",
+      "country": "Northern Ireland",
+      "postalCode": "BT66 8AH"
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 1,
+    "fields": {
+      "lastName": "1",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0001",
+      "emailAddress": "user1@user1.com",
+      "location": 1
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 2,
+    "fields": {
+      "lastName": "2",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0002",
+      "emailAddress": "user2@user2.com",
+      "location": 1
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 3,
+    "fields": {
+      "lastName": "3",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0003",
+      "emailAddress": "user3@user3.com",
+      "location": 2
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 4,
+    "fields": {
+      "lastName": "4",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0004",
+      "emailAddress": "user4@user4.com",
+      "location": 2
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 5,
+    "fields": {
+      "lastName": "5",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0005",
+      "emailAddress": "user5@user5.com",
+      "location": 3
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 6,
+    "fields": {
+      "lastName": "6",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0006",
+      "emailAddress": "user6@user6.com",
+      "location": 3
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 7,
+    "fields": {
+      "lastName": "7",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0007",
+      "emailAddress": "user7@user7.com",
+      "location": 4
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 8,
+    "fields": {
+      "lastName": "8",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0008",
+      "emailAddress": "user8@user8.com",
+      "location": 4
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 9,
+    "fields": {
+      "lastName": "9",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0009",
+      "emailAddress": "user9@user9.com",
+      "location": 5
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 10,
+    "fields": {
+      "lastName": "10",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0010",
+      "emailAddress": "user10@user10.com",
+      "location": 5
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 11,
+    "fields": {
+      "lastName": "11",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0011",
+      "emailAddress": "user11@user11.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 12,
+    "fields": {
+      "lastName": "12",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0012",
+      "emailAddress": "user12@user12.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 13,
+    "fields": {
+      "lastName": "13",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0013",
+      "emailAddress": "user13@user13.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 14,
+    "fields": {
+      "lastName": "14",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0014",
+      "emailAddress": "user14@user14.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 15,
+    "fields": {
+      "lastName": "15",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0015",
+      "emailAddress": "user15@user15.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 16,
+    "fields": {
+      "lastName": "16",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0016",
+      "emailAddress": "user16@user16.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 17,
+    "fields": {
+      "lastName": "17",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0017",
+      "emailAddress": "user17@user17.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 18,
+    "fields": {
+      "lastName": "18",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0018",
+      "emailAddress": "user18@user18.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 19,
+    "fields": {
+      "lastName": "19",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0019",
+      "emailAddress": "user19@user19.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 20,
+    "fields": {
+      "lastName": "20",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0020",
+      "emailAddress": "user20@user20.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 21,
+    "fields": {
+      "lastName": "21",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0021",
+      "emailAddress": "user21@user21.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 22,
+    "fields": {
+      "lastName": "22",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0022",
+      "emailAddress": "user22@user22.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 23,
+    "fields": {
+      "lastName": "23",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0023",
+      "emailAddress": "user23@user23.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 24,
+    "fields": {
+      "lastName": "24",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0024",
+      "emailAddress": "user24@user24.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 25,
+    "fields": {
+      "lastName": "25",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0025",
+      "emailAddress": "user25@user25.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 26,
+    "fields": {
+      "lastName": "26",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0026",
+      "emailAddress": "user26@user26.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 27,
+    "fields": {
+      "lastName": "27",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0027",
+      "emailAddress": "user27@user27.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 28,
+    "fields": {
+      "lastName": "28",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0028",
+      "emailAddress": "user28@user28.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 29,
+    "fields": {
+      "lastName": "29",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0029",
+      "emailAddress": "user29@user29.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.user",
+    "pk": 30,
+    "fields": {
+      "lastName": "30",
+      "firstName": "user",
+      "phoneNumber": "+353-1-000-0030",
+      "emailAddress": "user30@user30.com",
+      "location": null
+    }
+  },
+  {
+    "model": "store.role",
+    "pk": 1,
+    "fields": {
+      "title": "CEO"
+    }
+  },
+  {
+    "model": "store.role",
+    "pk": 2,
+    "fields": {
+      "title": "Store Manager"
+    }
+  },
+  {
+    "model": "store.role",
+    "pk": 3,
+    "fields": {
+      "title": "Store Clerk"
+    }
+  },
+  {
+    "model": "store.role",
+    "pk": 4,
+    "fields": {
+      "title": "Trainer"
+    }
+  },
+  {
+    "model": "store.role",
+    "pk": 5,
+    "fields": {
+      "title": "Customer"
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "role": 2,
+      "salary": 75000
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "role": 4,
+      "salary": 85000
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "role": 3,
+      "salary": 35000
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 4,
+    "fields": {
+      "user": 3,
+      "role": 2,
+      "salary": 68000
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 5,
+    "fields": {
+      "user": 4,
+      "role": 3,
+      "salary": 32000
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 6,
+    "fields": {
+      "user": 5,
+      "role": 3,
+      "salary": 31000
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 7,
+    "fields": {
+      "user": 6,
+      "role": 3,
+      "salary": 33000
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 8,
+    "fields": {
+      "user": 7,
+      "role": 3,
+      "salary": 34000
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 9,
+    "fields": {
+      "user": 8,
+      "role": 3,
+      "salary": 31500
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 10,
+    "fields": {
+      "user": 9,
+      "role": 3,
+      "salary": 32500
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 11,
+    "fields": {
+      "user": 10,
+      "role": 3,
+      "salary": 34500
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 12,
+    "fields": {
+      "user": 11,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 13,
+    "fields": {
+      "user": 12,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 14,
+    "fields": {
+      "user": 13,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 15,
+    "fields": {
+      "user": 14,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 16,
+    "fields": {
+      "user": 15,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 17,
+    "fields": {
+      "user": 16,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 18,
+    "fields": {
+      "user": 17,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 19,
+    "fields": {
+      "user": 18,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 20,
+    "fields": {
+      "user": 19,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 21,
+    "fields": {
+      "user": 20,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 22,
+    "fields": {
+      "user": 21,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 23,
+    "fields": {
+      "user": 22,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 24,
+    "fields": {
+      "user": 23,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 25,
+    "fields": {
+      "user": 24,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 26,
+    "fields": {
+      "user": 25,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 27,
+    "fields": {
+      "user": 26,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 28,
+    "fields": {
+      "user": 27,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 29,
+    "fields": {
+      "user": 28,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 30,
+    "fields": {
+      "user": 29,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.user_role",
+    "pk": 31,
+    "fields": {
+      "user": 30,
+      "role": 5,
+      "salary": 0
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+      "name": "iPhone 15 Pro Max",
+      "desc": "Latest Apple smartphone with 48MP camera, A17 Pro chip, and titanium design",
+      "price": 1199.99,
+      "stock": 25
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+      "name": "Samsung 65-inch 4K Smart TV",
+      "desc": "QLED display with HDR, built-in Alexa, and 120Hz refresh rate",
+      "price": 899.99,
+      "stock": 12
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+      "name": "Nike Air Max 90",
+      "desc": "Classic running shoes with air cushioning and durable rubber outsole",
+      "price": 129.99,
+      "stock": 50
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+      "name": "Levi's 501 Original Jeans",
+      "desc": "Button-fly jeans with straight fit, made from 100% cotton denim",
+      "price": 89.99,
+      "stock": 100
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+      "name": "KitchenAid Stand Mixer",
+      "desc": "5-quart capacity, 10 speeds, includes wire whip and dough hook",
+      "price": 349.99,
+      "stock": 8
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+      "name": "Dyson V15 Vacuum",
+      "desc": "Cordless stick vacuum with laser detection and LCD screen",
+      "price": 699.99,
+      "stock": 6
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+      "name": "The Irish Cookbook",
+      "desc": "Traditional and modern Irish recipes with 400+ pages of culinary heritage",
+      "price": 29.99,
+      "stock": 200
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+      "name": "Guinness Pint Glass Set",
+      "desc": "Set of 4 official Guinness pint glasses with harp logo",
+      "price": 24.99,
+      "stock": 150
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 9,
+    "fields": {
+      "name": "Fitbit Charge 6",
+      "desc": "Fitness tracker with heart rate monitor, GPS, and 7-day battery",
+      "price": 159.99,
+      "stock": 35
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 10,
+    "fields": {
+      "name": "Bose QuietComfort Headphones",
+      "desc": "Noise cancelling over-ear headphones with 24-hour battery life",
+      "price": 329.99,
+      "stock": 18
+    }
+  },
+  {
+    "model": "store.order",
+    "pk": 1,
+    "fields": {
+      "date": "2024-01-15T14:30:00Z",
+      "productID": 1,
+      "customerID": 1,
+      "locationID": 1
+    }
+  },
+  {
+    "model": "store.notification",
+    "pk": 1,
+    "fields": {
+      "pub_date": "2024-01-15T14:30:00Z",
+      "orderID": 1,
+      "userID": 1
+    }
+  }
+]

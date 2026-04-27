@@ -1,0 +1,29 @@
+<a href="/store/"><h1>Home</h1></a>
+
+{% if products_list %}
+    <h3>Products:</h3>
+    <ul>
+    {% for product in products_list %}
+        {% if product.stock > 0 %}
+        <li><a href="/store/{{ product.id }}/">€{{product.price}} - {{ product.name }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No products are available.</p>
+{% endif %}
+
+{% if notifications_list %}
+    <h3>Notifications:</h3>    
+    <ul>
+    {% for notification in notifications_list %}
+        {% if notification.orderID %}
+            <li><a href="/store/order/{{ notification.orderID.id }}/">{{ notification.id }} - {{ notification.orderID.productID.name }}</a></li>
+        {% else %}
+            <li><a href="/staff/tutorial/{{ notification.tutorialID.id }}/">{{ notification.id }} - {{ notification.tutorialID.title }}</a></li>
+        {% endif %}   
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Notifications are available.</p>
+{% endif %}
