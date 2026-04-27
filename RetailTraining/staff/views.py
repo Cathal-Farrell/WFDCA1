@@ -49,6 +49,10 @@ def grade(request, tutorial_id):
                 "error_message": "Low test score. Please try again",
             },
         )
+    
+    user = User.objects.get(firstName="user", lastName="1")
+    notification = Notification.objects.get(userID=user, tutorialID=tutorial)
+    notification.delete()
 
     # Always return an HttpResponseRedirect after successfully dealing
     # with POST data. This prevents data from being posted twice if a
